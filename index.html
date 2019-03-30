@@ -40,11 +40,6 @@
   //imgArray[32] = "img/dy/32.jpg";
   //imgArray[33] = "img/dy/33.jpg";
 
-
-
-
-
-
 	function showImage(){
 		var imgNum = Math.round(Math.random()*30);
 		var objImg = document.getElementById("introImg");
@@ -53,6 +48,10 @@
 </script>
 </head>
 <body onload = "showImage()">
-	<img id = "introImg" border="0">
+	<div class="thumb">
+		<a href="/">
+			<img id = "introImg" border="0">
+		</a>
+	</div>
 </body>
 </html>
