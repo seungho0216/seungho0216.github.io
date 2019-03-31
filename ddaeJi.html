@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>dayee</title>
+<script language = "javascript">
+	var imgArray = new Array();
+	imgArray[0] = "img/ddaeji/0.jpg";
+	imgArray[1] = "img/ddaeji/1.jpg";
+	imgArray[2] = "img/ddaeji/2.jpg";
+  imgArray[3] = "img/ddaeji/3.jpg";
+  imgArray[4] = "img/ddaeji/4.jpg";
+  imgArray[5] = "img/ddaeji/5.jpg";
+  imgArray[6] = "img/ddaeji/6.jpg";
+  imgArray[7] = "img/ddaeji/7.jpg";
+  //imgArray[8] = "img/ddaeji/8.jpg";
+  //imgArray[9] = "img/ddaeji/9.jpg";
+  //imgArray[10] = "img/ddaeji/10.jpg";
+  //imgArray[11] = "img/ddaeji/11.jpg";
+  //imgArray[12] = "img/ddaeji/12.jpg";
+  //imgArray[13] = "img/ddaeji/13.jpg";
+  //imgArray[14] = "img/ddaeji/14.jpg";
+  //imgArray[15] = "img/ddaeji/15.jpg";
+  //imgArray[16] = "img/ddaeji/16.jpg";
+  //imgArray[17] = "img/ddaeji/17.jpg";
+  //imgArray[18] = "img/ddaeji/18.jpg";
+  //imgArray[19] = "img/ddaeji/19.jpg";
+  //imgArray[20] = "img/ddaeji/20.jpg";
+  //imgArray[21] = "img/ddaeji/21.jpg";
+  //imgArray[22] = "img/ddaeji/22.jpg";
+  //imgArray[23] = "img/ddaeji/23.jpg";
+  //imgArray[24] = "img/ddaeji/24.jpg";
+  //imgArray[25] = "img/ddaeji/25.jpg";
+  //imgArray[26] = "img/ddaeji/26.jpg";
+  //imgArray[27] = "img/ddaeji/27.jpg";
+  //imgArray[28] = "img/ddaeji/28.jpg";
+  //imgArray[29] = "img/ddaeji/29.jpg";
+  //imgArray[30] = "img/ddaeji/30.jpg";
+  //imgArray[31] = "img/ddaeji/31.jpg";
+  //imgArray[32] = "img/ddaeji/32.jpg";
+  //imgArray[33] = "img/ddaeji/33.jpg";
+
+	function showImage(){
+		var imgNum = Math.round(Math.random()*30);
+		var objImg = document.getElementById("introImg");
+		objImg.src = imgArray[imgNum];
+	}
+</script>
+</head>
+<body onload = "showImage()">
+	<div class="thumb">
+		<a href="/">
+			<img id = "introImg" border="0">
+		</a>
+	</div>
+</body>
+</html>
